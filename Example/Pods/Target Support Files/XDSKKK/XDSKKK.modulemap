@@ -1,0 +1,6 @@
+framework module XDSKKK {
+  umbrella header "XDSKKK-umbrella.h"
+
+  export *
+  module * { export * }
+}
