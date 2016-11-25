@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'XDSKKK_Example' do
+  pod 'XDSKKK', :path => '../'
+
+  target 'XDSKKK_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
